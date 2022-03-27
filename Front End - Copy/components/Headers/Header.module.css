@@ -1,0 +1,60 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 5%;
+  height: 4rem;
+  background-color: #222222;
+}
+
+.logo {
+  font-size: 1rem;
+  font-family: 'Fira', sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00d5ff;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #00d5ff;
+}
+
+.logo a:hover,
+.logo a:active {
+  color: #f4f0e7;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+/*  */
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation li {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #f4f0e7;
+}
+
+.navigation a:hover,
+.navigation a:active {
+  color: #d7b56d;
+}
