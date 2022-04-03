@@ -1,0 +1,59 @@
+.centered {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.center {
+  width: 100%;
+  /* margin: 0rem auto; */
+  text-align: center;
+}
+
+.main {
+  margin: 2rem auto;
+  width: 90%;
+  /* max-width: 40rem; */
+}
+
+.right {
+  text-align: right;
+}
+
+.formContainer {
+  margin: auto;
+  padding: 1rem;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.formBtn {
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.tableContainer {
+  margin: auto;
+  padding: 0.1rem;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.titleContainer {
+  margin: 1rem auto;
+  width: 80%;
+  /* border: 2px solid black; */
+}
+
+.searchContainer {
+  margin: 0 auto 2rem;
+  padding: 0rem;
+  width: 80%;
+  /* border: 2px solid black; */
+  border-radius: 7px;
+}
+
+.table-horiz-scroll{
+  overflow-x: auto;
+}

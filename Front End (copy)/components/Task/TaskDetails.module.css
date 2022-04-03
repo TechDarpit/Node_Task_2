@@ -1,0 +1,22 @@
+.container {
+  margin: auto;
+  padding: 1rem;
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 0 2rem;
+  width: 80%;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn a:hover,
+.btn a:active {
+  color: wheat;
+}
